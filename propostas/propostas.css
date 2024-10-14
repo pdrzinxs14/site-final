@@ -34,7 +34,7 @@ body {
 
  
  .breadcrump{
-    background: url(../Eventos/imgs/4.jpg);
+    background: url(../bread/2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,7 +105,7 @@ body {
 
 
 .text-img{
-  display: flex;
+  display: flex; 
 }
 
 .propostas-tit h1{
