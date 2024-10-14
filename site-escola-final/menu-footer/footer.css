@@ -1,0 +1,133 @@
+.footer-três{
+    color: #fff;
+    background-color: #1c2148;
+    text-align: center;
+    border-top: 12px solid #1c2148; /* Ajuste a cor e a espessura conforme necessário */
+    }
+    
+    #layout-footer {
+    display: inline-block;
+    }
+    
+    .color_back1 {
+    background-color: #262c58!important;
+    color:  white;
+    }
+    
+    .color_back1 ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    }
+    
+    .color_back1 a {
+    text-decoration: none;
+    color: white !important;
+    }
+    
+    #logo_control {
+    height: 80px;
+    padding-left: 0;
+    }
+    
+    #qr_code_control {
+    max-width: 150px;
+    height: auto;
+    }
+    
+    #list_pad li {
+    padding-bottom: 10px;
+    }
+    
+    .img_control {
+    height: 20px;
+    padding-right: 10px;
+    }
+    
+  
+    .icons-footer i{
+      margin-right: 10px !important; 
+    }
+    
+    .redes-sociais i{
+      font-size: 22px;
+      margin-right: 15px !important;
+      font-weight: 900;
+    }
+    
+    .footer-style h3{
+      font-weight: 700 !important;
+      color: #95abb7;
+      font-size: 22px;
+    }
+    
+    /* Ajustes para o footer */
+    .footer-style {
+      flex-wrap: wrap;
+    }
+    
+    .footer-style div {
+      margin-bottom: 20px;
+    }
+    
+    /* Tamanho dos ícones */
+    .icons-footer i {
+      font-size: 18px;
+    }
+    
+    /* Media queries para telas pequenas */
+    @media (max-width: 768px) {
+      .footer-style {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .footer-style div {
+        margin-bottom: 20px;
+      }
+    
+      .footer-style ul {
+        padding-left: 0;
+      }
+    
+      .footer-style h3, .footer-style h4 {
+        font-size: 1.25rem;
+      }
+    
+      .icons-footer {
+        justify-content: center;
+      }
+    
+      .redes-sociais a {
+        font-size: 20px;
+        margin: 0 10px;
+      }
+    
+      .footer-três h6 {
+        font-size: 0.875rem;
+      }
+    
+      #logo_control {
+        max-width: 150px;
+        margin-bottom: 20px;
+      }
+    
+      #qr_code_control {
+        max-width: 150px;
+      }
+    }
+    
+  
+    /* Footer responsivo */
+    
+    .footer-style div {
+      margin-bottom: 20px !important;
+    }
+    
+    /* Menu responsivo */
+    
+    @media(max-width: 576px){
+      .ms-auto{
+        margin-left: 0 !important;
+      }
+    }

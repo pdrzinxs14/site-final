@@ -1,0 +1,390 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'myriad',Arial, Helvetica, sans-serif !important;
+  }
+  
+  
+  body {
+    font-family: 'myriad',Arial, Helvetica, sans-serif !important;
+    
+  }
+  .menu li a:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+    }
+    
+    .menu li a{
+      transition: 0.2s;
+    }
+  @font-face {
+    font-family: 'myriad';
+    src: url('../fonts/myriad-pro/MyriadPro-Light.otf') format('opentype'); /* Para .ttf */
+    /* ou use .woff, .woff2 se for o caso */
+  }
+  @font-face {
+    font-family: 'myriad-italic-titulo';
+    src: url('../fonts/myriad-pro/MYRIADPRO-SEMIBOLDIT.OTF') format('opentype'); /* Para .ttf */
+    /* ou use .woff, .woff2 se for o caso */
+  }
+  .navbar-brand h2{
+    color: #333333;
+    font-weight: 700;
+  }
+  h5 {
+    font-family: 'myriad-italic-titulo',Arial, Helvetica, sans-serif !important;
+  }
+  .nav-item a{
+    font-family: 'myriad-italic-subtitulo'
+  }
+  .navbar-dark .navbar-nav .nav-link{
+    color: #333333 !important;
+    font-weight: 700;
+  }
+  .texto{
+    font-weight: 900;
+      text-align: center;
+      color: #ffffff !important;
+      font-weight: 900;
+  }
+  header li a{
+    color: #000000!important;
+  }
+  .dropdown-menu{
+    background-color: #081663!important;
+  }
+  .dropdown-menu li a{
+    color: white!important;
+  }
+  .nav-item a{
+    color: #c9d3d9!important;
+  }
+  .dropdown-item{
+    background-color: transparent!important;
+  }
+  
+  html, body{
+    height: 100%;
+  }
+  
+  .conteudo{   /*codigo para espaçamento de cada bloco do site*/
+    max-width: 1140px;
+     margin: 0 auto;
+     padding: 10px 20px;
+  }
+  .conteudo-header{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .dropdown-menu li:hover{
+    background-color: #e3dddd9d!important;
+    transition: 0.2s;
+  }
+  .dropdown-menu a:hover{
+    color: black!important;
+  }
+  
+  .dropdown-menu{
+    padding: 0 !important;
+  }
+  
+  
+  .breadcrump{
+    background: url(../../Eventos/imgs/bread.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 150px;
+  }
+  .breadcrump h1 {
+    margin-left: 60px;
+    color: aliceblue;
+    margin-top: 0px;
+    font-family: 'myriad-titulo' !important;
+  }
+  .breadcrump p {
+    margin-left: 60px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    color: aliceblue;
+  }
+  .breadcrump p a {
+    text-decoration: none;
+    color: white;
+    font-family: 'myriad';
+  }
+  
+  
+  .carousel-thumbnails img {
+    cursor: pointer;
+    width: 80px; /* Tamanho das miniaturas */
+    height: 60px;
+    margin: 5px;
+    border: 2px solid transparent;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .carousel-thumbnails img.active-thumbnail {
+    border-color: #007bff;
+  }
+  
+  .carousel-item img {
+    border-radius: 10px;
+    width: 100%; /* Ajusta a largura da imagem para 100% */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  /* Container do carrossel e miniaturas */
+  .carousel-container {
+    max-width: 600px; /* Ajuste da largura do carrossel */
+    margin: 0 auto; /* Centraliza o carrossel */
+  }
+  
+  
+  @media (max-width: 768px) {
+    /* Tornar o layout responsivo para telas menores */
+    .carousel-thumbnails img {
+      width: 60px;
+      height: 40px;
+    }
+  }
+  
+  .Proposta-pedagógica h1{
+  color: #0f2c52;
+  text-align: center;
+  
+  }
+  
+  
+  
+  .text-img{
+  display: flex;
+  }
+  
+  .propostas-tit h1{
+  font-size: 50px;
+  text-align: center;
+  color: #0f2c52;
+  }
+  
+  /*cards*/
+  .scrollable-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1rem; /* Espaçamento entre os cards */
+    padding-bottom: 1rem;
+  }
+  
+  .scrollable-carousel::-webkit-scrollbar {
+    display: none; /* Esconde a barra de rolagem no Chrome */
+  }
+  
+  .carousel-item-wrapper {
+    flex: 0 0 auto; /* Mantém os itens na mesma linha */
+    width: 16rem; /* Largura dos cards */
+  }
+  
+  .custom-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Transições suaves para transformações, sombra e opacidade */
+    
+  }
+  
+  
+  
+  
+  .custom-card img{
+  width: 100px;
+  display: flex;
+  }
+  
+  .custom-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card em 5% ao passar o mouse */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave ao card */
+    opacity: 0.9; /* Diminui a opacidade para um efeito de destaque */
+    }
+  
+  
+  .carousel-controls {
+    position: relative;
+  }
+  
+  .control-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .control-arrow.left {
+    left: -40px;
+  }
+  
+  .control-arrow.right {
+    right: -40px;
+  }
+  
+  
+  .footer-três{
+  color: #fff;
+  background-color: #1c2148;
+  text-align: center;
+  border-top: 12px solid #1c2148; /* Ajuste a cor e a espessura conforme necessário */
+  }
+  
+  
+  /* --Layout do Site-- */
+  #layout-footer {
+  display: inline-block;
+  }
+  
+  .color_back1 {
+  background-color: #262c58!important;
+  color:  white;
+  }
+  
+  .color_back1 ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  }
+  
+  .color_back1 a {
+  text-decoration: none;
+  color: white !important;
+  }
+  
+  #logo_control {
+  height: 80px;
+  padding-left: 0;
+  }
+  
+  #qr_code_control {
+  max-width: 150px;
+  height: auto;
+  }
+  
+  
+  #list_pad li {
+  padding-bottom: 10px;
+  }
+  
+  .img_control {
+  height: 20px;
+  padding-right: 10px;
+  }
+  
+  /* CSS Gustavo */
+  
+  .menu-right i{
+  color: #c9d3d9;
+  }
+  
+  .linha{
+    background-color: #303875;
+    height: 146%;
+    width: 1px;
+    margin: 0 10px;
+    position: relative;
+    top: -10px;
+  }
+  
+  .navbar-nav .margin-i{
+    margin-right: 10px;
+  }
+  footer-style
+  .icons-footer i{
+    margin-right: 10px !important; 
+  }
+  
+  .redes-sociais i{
+    font-size: 22px;
+    margin-right: 15px !important;
+    font-weight: 900;
+  }
+  
+  .footer-style h3{
+    font-weight: 700 !important;
+    color: #95abb7;
+    font-size: 22px;
+  }
+  /* Ajustes para o footer */
+  .footer-style {
+  flex-wrap: wrap;
+  }
+  
+  .footer-style div {
+  margin-bottom: 20px;
+  }
+  
+  /* Tamanho dos ícones */
+  .icons-footer i {
+  font-size: 18px;
+  }
+  
+  /* Media queries para telas pequenas */
+  @media (max-width: 768px) {
+  .footer-style {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-style div {
+    margin-bottom: 20px;
+  }
+  
+  .footer-style ul {
+    padding-left: 0;
+  }
+  
+  .footer-style h3, .footer-style h4 {
+    font-size: 1.25rem;
+  }
+  
+  .icons-footer {
+    justify-content: center;
+  }
+  
+  .redes-sociais a {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  .footer-três h6 {
+    font-size: 0.875rem;
+  }
+  
+  #logo_control {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  #qr_code_control {
+    max-width: 150px;
+  }
+  }
+  
+  .hrBorda{
+  background-color: #485e88;
+  height: 3px;
+  width: 60px;
+  margin: 0 auto;
+  }

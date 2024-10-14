@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'myriad',Arial, Helvetica, sans-serif!important;
+  }
+  @font-face {
+    font-family: 'myriad';
+    src: url('../fonts/myriad-pro/MyriadPro-Light.otf') format('opentype'); /* Para .ttf */
+    /* ou use .woff, .woff2 se for o caso */
+  }
+  @font-face {
+    font-family: 'myriad-titulo';
+    src: url('../fonts/myriad-pro/MYRIADPRO-BOLD.OTF') format('opentype'); /* Para .ttf */
+    /* ou use .woff, .woff2 se for o caso */
+  }
+  @font-face {
+    font-family: 'myriad-italic-subtitulo';
+    src: url('../fonts/myriad-pro/MYRIADPRO-SEMIBOLDIT.OTF') format('opentype'); /* Para .ttf */
+    /* ou use .woff, .woff2 se for o caso */
+  }
+  .navbar-brand h2{
+    color: #333333;
+    font-size: calc(1.325rem + .9vw);
+  } 
+  .navbar-dark .navbar-nav .nav-link{
+    color: #333333 !important;
+  }
+  
+  header li a{
+    color: #000000!important;
+  }
+  .dropdown-menu{
+    background-color: #081663!important;
+  }
+  .dropdown-menu li a{
+    color: white!important;
+  }
+  .nav-item a{
+    color: #c9d3d9!important;
+  }
+  .dropdown-item{
+    background-color: transparent!important;
+  }
+  .menu-right i{
+    color: #c9d3d9;
+    }
+  html, body{
+    height: 100%;
+  }
+  .conteudo{   /*codigo para espaçamento de cada bloco do site*/
+    max-width: 1140px;
+     margin: 0 auto;
+     padding: 10px 20px;
+  }
+  .conteudo-header{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .dropdown-menu li:hover{
+    background-color: #e3dddd9d!important;
+    transition: 0.2s;
+  }
+  .dropdown-menu a:hover{
+    color: black!important;
+  }
+  
+  .dropdown-menu{
+    padding: 0 !important;
+  }
+  .menu li a:hover{
+  transform: scale(1.2);
+  transition: 0.2s;
+  }
+  
+  .menu li a{
+    transition: 0.2s;
+  }
+  .linha{
+    background-color: #303875;
+    height: 146%;
+    width: 1px;
+    margin: 0 10px;
+    position: relative;
+    top: -10px;
+  }
+  
+  .navbar-nav .margin-i{
+    margin-right: 10px;
+  }
+  .linha-2{
+    background-color: red;
+    width: 1px;
+    height: 10px;
+  }
