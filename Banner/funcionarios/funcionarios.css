@@ -1,0 +1,138 @@
+.breadcrump{
+    background: url(./img/bread-dos-funcionarios.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 150px;
+}
+.breadcrump h1 {
+    margin-left: 60px;
+    color: aliceblue;
+    margin-top: 0px;
+    font-family: 'myriad-titulo';
+}
+.breadcrump p {
+    margin-left: 60px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    color: aliceblue;
+}
+.breadcrump p a {
+    text-decoration: none;
+    color: white;
+    font-family: 'myriad';
+}
+  
+/* fim do breadcrump */
+  
+/* -------------------------- */  
+
+/* cards conteudo */
+
+.carousel-thumbnails img.active-thumbnail {
+    border-color: #007bff;
+}
+  
+.carousel-item img {
+    margin-top: 30px;
+    object-fit: cover;
+    height: 100px !important;
+    width: 100%; /* Ajusta a largura da imagem para 100% */
+    height: auto; /* Mantém a proporção da imagem */
+}
+  
+/* Container do carrossel e miniaturas */
+  .carousel-container {
+    max-width: 600px; /* Ajuste da largura do carrossel */
+    margin: 0 auto; /* Centraliza o carrossel */
+}
+  
+  
+@media (max-width: 768px) {
+    /* Tornar o layout responsivo para telas menores */
+    .carousel-thumbnails img {
+      width: 60px;
+      height: 40px;
+    }
+}
+
+.scrollable-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1rem; /* Espaçamento entre os cards */
+    padding-bottom: 1rem;
+}
+  
+  .scrollable-carousel::-webkit-scrollbar {
+    display: none; /* Esconde a barra de rolagem no Chrome */
+}
+  
+.carousel-item-wrapper {
+    flex: 0 0 auto; /* Mantém os itens na mesma linha */
+    width: 16rem; /* Largura dos cards */
+}
+  
+.custom-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Transições suaves para transformações, sombra e opacidade */
+}
+  
+.custom-card img{
+  width: 100px;
+  display: flex;
+}
+.custom-card p {
+    color: rgb(0, 0, 0);
+}
+.titulinho {
+    color: white;
+}
+.hrBorda{
+    background-color: #485e88;
+    height: 3px;
+    width: 60px;
+    margin: 0 auto;
+  }
+.custom-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white !important;
+}
+  
+.custom-card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card em 5% ao passar o mouse */
+    
+    opacity: 0.9; /* Diminui a opacidade para um efeito de destaque */
+}
+  
+  
+.carousel-controls {
+    position: relative;
+}
+  
+.control-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+  
+.control-arrow.left {
+    left: -40px;
+}
+  
+.control-arrow.right {
+    right: -40px;
+}
+
+/* fim dos cards */
