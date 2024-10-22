@@ -1,0 +1,41 @@
+.breadcrump{
+    background: url(../../site-escola-final/quatro-pilares/img/brad.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 150px;
+  }
+  .breadcrump h1 {
+    margin-left: 60px;
+    color: aliceblue;
+    margin-top: 0px;
+    font-family: 'myriad-titulo' !important;
+  }
+  .breadcrump p {
+    margin-left: 60px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    color: aliceblue;
+  }
+  .breadcrump p a {
+    text-decoration: none;
+    color: white;
+    font-family: 'myriad';
+  }
+  
+
+
+
+
+
+
+
+
+  
+.hrBorda{
+  background-color: #485e88;
+  height: 3px;
+  width: 60px;
+  margin: 0 auto;
+  }
