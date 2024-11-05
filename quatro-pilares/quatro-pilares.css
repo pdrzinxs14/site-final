@@ -1,5 +1,5 @@
 .breadcrump{
-    background: url(../../site-escola-final/quatro-pilares/img/brad.png);
+    background: url(../../../site-final/site-final/quatro-pilares/img/brad.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,8 +23,15 @@
     color: white;
     font-family: 'myriad';
   }
-  
+  .conteudo-pilar3{
 
+    font-size: medium;
+    
+  }
+  .conteudo-pilar4{
+    font-size: medium;
+    
+  }
 
 
 
