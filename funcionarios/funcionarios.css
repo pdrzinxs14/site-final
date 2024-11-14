@@ -77,18 +77,35 @@
 .custom-card {
     border-radius: 10px;
     overflow: hidden;
+    width: 1130px;
+    height: 400px !important;
     transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Transições suaves para transformações, sombra e opacidade */
 }
-  
+.card-img-3 img{
+height: 480px !important;
+margin-bottom: 30px;    
+}
 .custom-card img{
-  width: 100px;
+  width: 1000px;
   display: flex;
 }
 .custom-card p {
     color: rgb(0, 0, 0);
 }
 .titulinho {
-    color: white;
+    color: black;
+}
+.textinho-rtg {
+
+    background-color: white;
+}
+.rtg-de-texto {
+    max-width: 800px;
+    justify-content: center !important;
+    display: flex !important;
+    align-items: center !important;
+    align-self: center !important;
+    
 }
 .hrBorda{
     background-color: #485e88;
