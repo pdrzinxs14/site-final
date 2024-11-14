@@ -137,6 +137,7 @@ header li a{
 }
 .row{
   width: 90%;
+  margin-bottom: 70px;
 }
 .linha{
   background-color: #303875;
@@ -328,15 +329,43 @@ header li a{
 .mapa{
   padding-top: 20px;
 }
-.bannerisa{
-  display: flex;
-  height: 300px;
-  background-image: url(../img/imagem1.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 /* Ajustes para o footer */
+
+
+
+.breadcrump{
+  background: url(../breads/breadrefeitorio.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 150px;
+}
+.breadcrump h1 {
+  margin-left: 60px;
+  color: aliceblue;
+  margin-top: 0px;
+  font-family: 'myriad-titulo';
+}
+.hrBorda{
+  background-color: #41679a;
+  height: 3px;
+  width: 60px !important;
+  margin: 0 auto !important  ;
+  display: block !important;
+}
+.breadcrump p {
+  margin-left: 60px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  color: aliceblue;
+}
+.breadcrump p a {
+  text-decoration: none;
+  color: white;
+  font-family: 'myriad';
+}
 
   </style>
 </head>
@@ -494,7 +523,12 @@ header li a{
   </header>
  
   <main>
-    <div class="bannerisa"></div>
+    <div class="breadcrump">
+      <div class="column">
+        <p><a href="../../index.html">Home</a> • <a href="../nossos.html">Espaços</a> • <a href="refeitorio.html">Refeitório</a></p>
+        <h1>Nossos Espaços</h1>
+      </div>
+    </div><br>
   </main>
 
 <div class="container">
@@ -502,9 +536,9 @@ header li a{
     <!-- Coluna da descrição do evento -->
     <div class="col-md-6">
       <div class="evento-info">
-        <h1>Nome do Evento</h1>
-        <p>Descrição completa do evento aqui. Pode incluir data, local, palestrantes e outras informações relevantes.</p>
-        <p>Mais detalhes sobre o evento, como agenda, atividades e informações de contato.</p>
+        <h1><b>Refeitório</b></h1>
+        <p>Em nosso refeitório, prezamos por um ambiente agradável e acolhedor, onde nossos jovens podem desfrutar das refeições de forma confortável. Acreditamos que uma alimentação saudável é fundamental para o crescimento e desenvolvimento dos alunos, e, por isso, oferecemos refeições balanceadas e nutritivas. O espaço foi planejado para promover uma experiência de refeição positiva, incentivando hábitos alimentares regrados e saudáveis.</p>
+        <p>Com um cardápio variado e opções que atendem às necessidades nutricionais, nosso objetivo é garantir que cada aluno se sinta bem e energizado para as atividades do dia.</p>
       </div>
     </div>
 
