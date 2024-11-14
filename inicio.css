@@ -162,14 +162,17 @@
   }
   .button-pilar{
     display: flex;
-    align-items: center;
+    justify-content: center;
     padding: 10px 15px;
     margin-top: 10px;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    margin-left: 60px;
     text-transform: none !important;
+    }
+    .button-pilar a{
+      text-decoration: none;
+      color:  black !important;
     }
  
