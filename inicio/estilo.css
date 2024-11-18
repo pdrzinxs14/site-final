@@ -1,34 +1,22 @@
 .banner-1{
-    background: url(img/1.png);
-    height: 495px;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(banner/refeitorio.png);
 }
 
 .banner-2{
-    background: url(img/2.png);
-    height: 495px;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(banner/informatica.png);
 }
 
 .banner-3{
-    background: url(img/3.png);
-    height: 495px;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(banner/sala.png);
 }
 
 .banner-4{
-    background: url(img/4.png);
-    height: 495px;
+    background: url(banner/biblioteca.png);
+    
+}
 
+.banner-1, .banner-2, .banner-3, .banner-4{
+    height: 495px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +30,7 @@
     padding: 100px
 }
 .conteudo-banner h1{
-    font-size: 60px !important;
+    font-size: 48px !important;
     font-weight: 700;
 }
 .conteudo-banner p{
