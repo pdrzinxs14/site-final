@@ -1,17 +1,17 @@
 .banner-1{
-    background: url(img/1.png);
+    background: url(banner/refeitorio.png);
 }
 
 .banner-2{
-    background: url(img/2.png);
+    background: url(banner/informatica.png);
 }
 
 .banner-3{
-    background: url(img/3.png);
+    background: url(banner/sala.png);
 }
 
 .banner-4{
-    background: url(img/4.png);
+    background: url(banner/biblioteca.png);
     
 }
 
