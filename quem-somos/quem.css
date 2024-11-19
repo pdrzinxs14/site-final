@@ -1,5 +1,5 @@
 .breadcrump{
-  background: url(../bread/8.png);
+  background: url(../quem-somos/img/breadcrups\ melhorado.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,7 +54,7 @@ body {
    padding: 10px 20px;
 }
 .hrBorda{
-  background-color: #faac03;
+  background-color: #385e88;
   height: 3px;
   width: 60px !important;
   margin: 0 auto !important  ;
