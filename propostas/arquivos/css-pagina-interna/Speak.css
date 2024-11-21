@@ -30,7 +30,6 @@ body {
 }
 .navbar-brand h2{
   color: #333333;
-  font-weight: 700;
 }
 h5 {
   font-family: 'myriad-italic-titulo',Arial, Helvetica, sans-serif !important;
@@ -40,7 +39,6 @@ h5 {
 }
 .navbar-dark .navbar-nav .nav-link{
   color: #333333 !important;
-  font-weight: 700;
 }
 .texto{
   font-weight: 900;
