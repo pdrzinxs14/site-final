@@ -225,14 +225,7 @@ border: none;
   margin-top: 100px; 
   display: flex !important;
 }
-.menina-do-novotec{
-  float: inline-end;
-  height: 236px;
-  position: relative;
-  top: -46px;
-  width: 400px;
-  right: 150px;
-}
+
 .textinho-banner{
   color: #0f2c52;
   font-family: 'myriad-titulo';
@@ -253,6 +246,7 @@ border: none;
   font-family: 'myriad-titulo';
 }
 
-/* fim do banner */
 
-/* -------------------------- */
+.cor h5 {
+  color: #1100ff !important;
+}
