@@ -56,3 +56,12 @@
   
     margin-left: 20px;
   }
+  .imagem3 {
+    float: right;
+    margin-left: 20px; /* Espaço entre o texto e a imagem */
+    width: 300px;
+  }
+  
+  .texto2 {
+    text-align: justify;
+  }
