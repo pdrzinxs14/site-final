@@ -30,7 +30,6 @@
   }
   .navbar-brand h2{
     color: #333333;
-    font-weight: 700;
   }
   h5 {
     font-family: 'myriad-italic-titulo',Arial, Helvetica, sans-serif !important;
@@ -40,7 +39,6 @@
   }
   .navbar-dark .navbar-nav .nav-link{
     color: #333333 !important;
-    font-weight: 700;
   }
   .texto{
     font-weight: 900;
@@ -91,7 +89,7 @@
   
   
   .breadcrump{
-    background: url(../../../Galeria-de-fotos/14.jpg);
+    background: url(../../../Galeria-de-fotos/14.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
